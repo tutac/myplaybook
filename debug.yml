@@ -1,6 +1,6 @@
 - hosts: web
-  vars:
-    name: "Class"
+  vars_files:
+  - vars.yml
   tasks:
   - name: Debug
     debug:
